@@ -294,3 +294,39 @@ body {
     background-color: #3b4d56;
     transition: all ease 0.4s;
 }
+
+/*About*/
+
+.about {
+    padding-bottom: 188px;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-tittle {
+    text-align: left;
+    margin-bottom: -80px;
+}
+.about-info p {
+    color: var(--gray-color);
+    font-size: 20px;
+}
+.about-text {
+    margin: 20px 0 44px;
+    max-width: 635px;
+}
+.about-results-item h2 {
+    color: #2a3246;
+    text-align: center;
+}
+.about-results {
+    display: flex;
+    text-align: center;
+    gap: 120px;
+}
+.about-img img {
+    max-width: 500px;
+    width: 100%;
+}
