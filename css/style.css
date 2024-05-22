@@ -37,6 +37,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+main {
+    overflow: hidden;
+}
+
 :root {
     --accent-color: #263238;
     --gray-color: #8F95A5;
@@ -309,7 +313,7 @@ body {
     text-align: left;
     margin-bottom: -80px;
 }
-.about-info p {
+.text {
     color: var(--gray-color);
     font-size: 20px;
 }
@@ -329,4 +333,62 @@ body {
 .about-img img {
     max-width: 500px;
     width: 100%;
+}
+
+/* Pricing */
+
+.pricing {
+    padding-bottom: 256px;
+}
+.pricing-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52px;
+    margin-top: 57px;
+}
+.pricing-content-item {
+    max-width: 426px;
+}
+.test {
+    margin-bottom: 54px;
+}
+.pricing-tittle {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #263238;
+    margin-bottom: 20px;
+}
+.pricing-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 240px;
+    height: 45px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.price {
+    font-size: 30px;
+    color: #263238;
+}
+.pricing-info p {
+    font-size: 18px;
+    color: #546269;
+}
+.lesson {
+    margin-bottom: 86px;
+}
+.webinar {
+    margin-left: 50px;
+    margin-bottom: 32px;
+}
+.pricing-content-item:first-child .pricing-info {
+    margin-top: 28px;
+}
+.pricing-content-item:nth-child(2) .pricing-info, 
+.pricing-content-item:nth-child(3) .pricing-info {
+    margin-top: 62px;
 }

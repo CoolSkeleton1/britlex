@@ -106,7 +106,7 @@
         margin-bottom: -20px;
     }
 
-    .about-info p {
+    .text {
         font-size: 16px;
     }
     .about-text {
@@ -121,6 +121,49 @@
         max-width: 300px;
         width: 100%;
     }
+
+    .pricing {
+        padding-bottom: 136px;
+    }
+    .pricing-content {
+        justify-content: space-around;
+        gap: 42px;
+        margin-top: 10px;
+    }
+    .pricing-content-item {
+        max-width: 292px;
+    }
+    .test {
+        margin-bottom: 54px;
+        max-width: 222px;
+    }
+    .pricing-tittle {
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 14px;
+    }
+    .pricing-info {
+        width: 205px;
+    }
+    .price {
+        font-size: 24px;
+    }
+    .pricing-info p {
+        font-size: 16px;
+    }
+    .lesson {
+        margin-bottom: 84px;
+        max-width: 267px;
+    }
+    .webinar {
+        margin-bottom: 40px;
+        max-width: 242px;
+    }
+    .pricing-content-item:nth-child(2) .pricing-info, 
+    .pricing-content-item:nth-child(3) .pricing-info {
+        margin-top: 76px;
+    }
+    
 }
 
 @media screen and (max-width: 833px) {
@@ -220,7 +263,7 @@
         padding: 0 40px 88px;
     }
 
-    .about-info p {
+    .text {
         font-size: 14px;
     }
     .about-text {
@@ -236,6 +279,40 @@
     .about-img img {
         max-width: 300px;
         width: 100%;
+    }
+
+    .pricing {
+        padding-bottom: 64px;
+    }
+    .pricing-content {
+        gap: 36px;
+        margin-top: 26px;
+    }
+    .pricing-content-item {
+        max-width: 206px;
+    }
+    .test {
+        margin-bottom: 54px;
+        max-width: 197px;
+    }
+    .pricing-tittle {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .price {
+        font-size: 22px;
+    }
+    .lesson {
+        margin-bottom: 84px;
+        max-width: 219px;
+    }
+    .webinar {
+        margin-bottom: 40px;
+        max-width: 210px;
+    }
+    .pricing-content-item:nth-child(2) .pricing-info, 
+    .pricing-content-item:nth-child(3) .pricing-info {
+        margin-top: 76px;
     }
 }
 
@@ -352,7 +429,7 @@
     .about-content {
         flex-direction: column-reverse;
     }
-    .about-info p {
+    .text {
         font-size: 14px;
     }
     .about-text {
@@ -369,6 +446,44 @@
     .about-img img {
         max-width: 352px;
         width: 100%;
+    }
+
+    .pricing {
+        padding-bottom: 162px;
+    }
+    .pricing-content {
+        flex-direction: column;
+        gap: 70px;
+        margin-top: 54px;
+    }
+    .pricing-content-item {
+        max-width: 400px;
+        text-align: center;
+    }
+    .test {
+        max-width: 291px;
+        margin-bottom: 24px;
+    }
+    .pricing-tittle {
+        font-size: 24px;
+    }
+    .pricing-info {
+        margin: 0 auto;
+    }
+    .price {
+        font-size: 22px;
+    }
+    .lesson {
+        margin-bottom: 18px;
+        max-width: 314px;
+    }
+    .webinar {
+        margin-bottom: 14px;
+        max-width: 253px;
+    }
+    .pricing-content-item:nth-child(2) .pricing-info, 
+    .pricing-content-item:nth-child(3) .pricing-info {
+        margin-top: 28px;
     }
 }
 
@@ -465,5 +580,30 @@
     .about-img img {
         max-width: 282px;
         width: 100%;
+    }
+
+    .pricing {
+        padding-bottom: 72px;
+    }
+    .pricing-content {
+        margin-top: 48px;
+    }
+    .pricing-content-item {
+        max-width: 262px;
+    }
+    .test {
+        max-width: 248px;
+    }
+    .pricing-tittle {
+        font-size: 18px;
+    }
+    .price {
+        font-size: 18px;
+    }
+    .lesson {
+        max-width: 257px;
+    }
+    .webinar {
+        max-width: 241px;
     }
 }
