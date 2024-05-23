@@ -392,3 +392,57 @@ main {
 .pricing-content-item:nth-child(3) .pricing-info {
     margin-top: 62px;
 }
+
+/* Contact */
+.contact {
+    padding-bottom: 132px;
+}
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 110px;
+}
+.contact-img {
+    max-width: 477px;
+    width: 100%;
+}
+.contact-img-hidden {
+    display: none;
+}
+.contact-info {
+    max-width: 776px;
+}
+.contact-tittle {
+    text-align: left;
+}
+.contact-info p.text {
+    margin: 36px 0 52px;
+}
+.contact-form input {
+    outline: 0;
+    padding: 24px 234px 26px 32px;
+    border: 1px solid var(--gray-color);
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 12px;
+}
+.contact-form input::placeholder {
+    color: var(--gray-color);
+}
+.contact-button {
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 24px 82px 28px;
+    color: #fff;
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    background-color: #3b4d56;
+    transition: all ease 0.4s;
+}

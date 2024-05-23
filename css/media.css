@@ -156,14 +156,29 @@
         max-width: 267px;
     }
     .webinar {
-        margin-bottom: 40px;
+        margin: 0px 0px 40px 0px;
         max-width: 242px;
     }
     .pricing-content-item:nth-child(2) .pricing-info, 
     .pricing-content-item:nth-child(3) .pricing-info {
         margin-top: 76px;
     }
-    
+
+    .contact-img {
+        max-width: 312px;
+    }
+    .contact-info {
+        max-width: 530px;
+    }
+    .contact-form input {
+        padding: 18px 110px 18px 26px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .contact-button {
+        font-size: 16px;
+        padding: 20px 46px;
+    }
 }
 
 @media screen and (max-width: 833px) {
@@ -313,6 +328,28 @@
     .pricing-content-item:nth-child(2) .pricing-info, 
     .pricing-content-item:nth-child(3) .pricing-info {
         margin-top: 76px;
+    }
+
+    .contact-content {
+        gap: 38px;
+    }
+    .contact-img {
+        max-width: 233px;
+    }
+    .contact-info {
+        max-width: 434px;
+    }
+    .contact-form input {
+        padding: 16px 110px 16px 24px;
+        font-size: 12px;
+        margin-right: 6px;
+    }
+    .contact-button {
+        font-size: 13px;
+        padding: 18px 38px;
+    }
+    .contact-info p.text {
+        margin: 0 0 26px;
     }
 }
 
@@ -485,6 +522,23 @@
     .pricing-content-item:nth-child(3) .pricing-info {
         margin-top: 28px;
     }
+
+    .contact-content {
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+    .contact-tittle {
+        text-align: center;
+    }
+    .contact-img {
+        display: none;
+    }
+    .contact-img-hidden {
+        display: block;
+        max-width: 358px;
+        margin: 82px auto 34px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -605,5 +659,22 @@
     }
     .webinar {
         max-width: 241px;
+    }
+
+    .contact-img-hidden {
+        max-width: 253px;
+        margin: 38px auto 38px;
+    }
+
+    .contact-info {
+        max-width: 290px;
+    }
+    .contact-form input {
+        padding: 16px 110px 16px 26px;
+        margin-right: 0px;
+    }
+    .contact-button {
+        font-size: 14px;
+        padding: 18px 112px;
     }
 }
