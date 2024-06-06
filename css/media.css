@@ -171,6 +171,7 @@
         max-width: 530px;
     }
     .contact-form input {
+        max-width: 323px;
         padding: 18px 110px 18px 26px;
         font-size: 14px;
         margin-bottom: 10px;
@@ -351,6 +352,7 @@
         max-width: 434px;
     }
     .contact-form input {
+        max-width: 283px;
         padding: 16px 110px 16px 24px;
         font-size: 12px;
         margin-right: 6px;
@@ -711,6 +713,7 @@
         max-width: 290px;
     }
     .contact-form input {
+        max-width: 290px;
         padding: 16px 110px 16px 26px;
         margin-right: 0px;
     }

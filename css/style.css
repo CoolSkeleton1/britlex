@@ -420,6 +420,7 @@ main {
 }
 .contact-form input {
     outline: 0;
+    max-width: 450px;
     padding: 24px 234px 26px 32px;
     border: 1px solid var(--gray-color);
     border-radius: 10px;
