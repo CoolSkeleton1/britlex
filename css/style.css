@@ -93,26 +93,35 @@ main {
 
 .burger {
     display: none;
-    background-color: transparent;
-    border: none;
-    padding: 8px 8px;
 }
 
-.burger:hover {
-    transition: all ease 0.5s;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: var(--accent-color);
+.navbar-toggler-icon {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
-    .line {
-        background-color: #fff;
-    }
+.navbar-toggler-icon:hover {
+    cursor: pointer;
+}
+
+.btn-outline-dark {
+    padding: 20px 55px;
+    margin-top: 56px;
 }
 
 .line {
     height: 3px;
     background-color: #39515E;
     border-radius: 1px;
+}
+
+.line:last-child {
+    margin-bottom: 0;
 }
 
 .line-1,
@@ -421,7 +430,7 @@ main {
 .contact-form input {
     outline: 0;
     max-width: 450px;
-    padding: 24px 234px 26px 32px;
+    padding: 24px 200px 26px 32px;
     border: 1px solid var(--gray-color);
     border-radius: 10px;
     font-size: 16px;

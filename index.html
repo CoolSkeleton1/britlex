@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britlex</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -17,11 +18,45 @@
                     <div class="logo">
                         <img src="img/Britlex.png" alt="Logo">
                     </div>
-                    <button class="burger">
-                        <div class="line-1 line"></div>
-                        <div class="line-2 line"></div>
-                        <div class="line-3 line"></div>
-                    </button>
+                    <div class="burger">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon">
+                                <div class="line line-1"></div>
+                                <div class="line line-2"></div>
+                                <div class="line line-3"></div>
+                            </span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Закрыть"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav align-items-center justify-content-start flex-grow-1">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Skills</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contacts</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex justify-content-center">
+                                    <button class="btn btn-outline-dark">Let’s Talk</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                     <div class="menu-list">
                         <ul>
                             <li><a href="#">Home</a></li>
@@ -40,7 +75,8 @@
                                 <h1>Learn Any Foreign Language</h1>
                                 <img src="img/light.png" alt="Light">
                             </div>
-                            <p>With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
+                            <p>With our teachers who write a program for each student, you will be able to make your
+                                first sketch after the first lesson.</p>
                             <button class="get-started-button">Get started</button>
                         </div>
                         <div class="get-started-img">
@@ -60,7 +96,10 @@
                         </div>
                         <div class="cards-item-info">
                             <h3 class="cards-tittle">Speaking</h3>
-                            <p>Improve your English skills and confidence. Live classes and interactive lessons online. 20% extra free for a limited time only <br><br> Learn English online and improve your skills through our high-quality courses and resources – all designed for adult language learners.</p>
+                            <p>Improve your English skills and confidence. Live classes and interactive lessons online.
+                                20% extra free for a limited time only <br><br> Learn English online and improve your
+                                skills through our high-quality courses and resources – all designed for adult language
+                                learners.</p>
                             <button>Learn more</button>
                         </div>
                     </div>
@@ -70,7 +109,8 @@
                         </div>
                         <div class="cards-item-info">
                             <h3 class="cards-tittle">Writing</h3>
-                            <p>One of the most important and extensive areas of natural science, the science that studies substances, also their composition </p>
+                            <p>One of the most important and extensive areas of natural science, the science that
+                                studies substances, also their composition </p>
                             <button>Learn more</button>
                         </div>
                     </div>
@@ -80,7 +120,8 @@
                         </div>
                         <div class="cards-item-info">
                             <h3 class="cards-tittle">Reading</h3>
-                            <p>perception and response actions of the user resulting from the use and/or upcoming use of the product, system or service</p>
+                            <p>perception and response actions of the user resulting from the use and/or upcoming use of
+                                the product, system or service</p>
                             <button>Learn more</button>
                         </div>
                     </div>
@@ -90,7 +131,8 @@
                         </div>
                         <div class="cards-item-info">
                             <h3 class="cards-tittle">Listening</h3>
-                            <p>Here you can find activities to practise your listening skills. Listening will help you to improve your understanding </p>
+                            <p>Here you can find activities to practise your listening skills. Listening will help you
+                                to improve your understanding </p>
                             <button>Learn more</button>
                         </div>
                     </div>
@@ -102,7 +144,11 @@
                 <h2 class="tittle about-tittle">About us</h2>
                 <div class="about-content">
                     <div class="about-info">
-                        <p class="about-text text">The model offers a framework for discussing problems related to the user's experience, as well as possible ways and means of solving them. Application development begins at the top level (strategy), where the future software product is described quite abstractly from the point of view of the expectations of both users and the customer.</p>
+                        <p class="about-text text">The model offers a framework for discussing problems related to the
+                            user's experience, as well as possible ways and means of solving them. Application
+                            development begins at the top level (strategy), where the future software product is
+                            described quite abstractly from the point of view of the expectations of both users and the
+                            customer.</p>
                         <div class="about-results">
                             <div class="about-results-item">
                                 <h2 class="tittle">800</h2>
@@ -170,7 +216,8 @@
                     <div class="contact-info">
                         <h2 class="tittle contact-tittle">Contact us</h2>
                         <img src="img/contact.png" alt="Contact" class="contact-img-hidden">
-                        <p class="text">Discover your current English level by taking our free online English test.Sign up to our newsletter for learning tips and free resources</p>
+                        <p class="text">Discover your current English level by taking our free online English test.Sign
+                            up to our newsletter for learning tips and free resources</p>
                         <form class="contact-form">
                             <input type="email" placeholder="Enter Your E-mail">
                             <button class="contact-button">Subscribe</button>
@@ -195,6 +242,7 @@
             </div>
         </footer>
     </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
